@@ -13,23 +13,23 @@ This is a bot I made in my free time originally for reputation, but I don't sell
 - Buyers must confirm they got the valid product before a payout and if they don't a dispute starts.
 
 # Example of how a deal would go
-Seller: Opens ticket.\n
-Bot: Asks for the user ID of the buyer.
-Seller: gives the user ID.
-Bot: Adds the User ID to the ticket.
-Bot: Asks Seller how much money they will receive.
-Seller: Answers with a number (let's say 1).
-Bot: Asks seller for their LTC Wallet Address.
-Seller: Gives them their LTC Wallet Address.
-Bot: Tells Buyer to send $1 worth of LTC to the Bot's newly generated wallet address.
-Buyer: Sends LTC, If not sent within 5 minutes the deal will be canceled (I suggest making a /recover command in case they sent it but it didn't get all confirmations on time, I may make it in the future).
-Bot: Confirms they got the funds.
-Bot: Confirms the funds have been confirmed.
-Bot: Tells seller to send the product in the same channel, Optional but sending in channel makes it more secure for buyer & seller in case of a dispute and it needs to go into manual review.
-Bot: Creates a prompt for ONLY the buyer to click to confirm the product's validity.
-Buyer: Clicks the button.
-Bot: If the button that is clicked is 'Confirmed' It will auto payout to the seller's wallet, if it's 'Dispute' it will not auto payout and tell the seller to create a dispute.
-Bot: Saves Transcript.
+1.  Seller: Opens ticket.
+2.  Bot: Asks for the user ID of the buyer.
+3.  Seller: gives the user ID.
+4.  Bot: Adds the User ID to the ticket.
+5.  Bot: Asks Seller how much money they will receive.
+6.  Seller: Answers with a number (let's say 1).
+7.  Bot: Asks seller for their LTC Wallet Address.
+8.  Seller: Gives them their LTC Wallet Address.
+9.  Bot: Tells Buyer to send $1 worth of LTC to the Bot's newly generated wallet address.
+10. Buyer: Sends LTC, If not sent within 5 minutes the deal will be canceled (I suggest making a /recover command in case they sent it but it didn't get all confirmations on 11. time, I may make it in the future).
+12. Bot: Confirms they got the funds.
+13. Bot: Confirms the funds have been confirmed.
+14. Bot: Tells seller to send the product in the same channel, Optional but sending in channel makes it more secure for buyer & seller in case of a dispute and it needs to go into manual review.
+15. Bot: Creates a prompt for ONLY the buyer to click to confirm the product's validity.
+16. Buyer: Clicks the button.
+17. Bot: If the button that is clicked is 'Confirmed' It will auto payout to the seller's wallet, if it's 'Dispute' it will not auto payout and tell the seller to create a dispute.
+18. Bot: Saves Transcript.
 
 # IMPORTANT
 - The bot needs the SELLER to open the ticket.
