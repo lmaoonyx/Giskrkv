@@ -13,7 +13,7 @@ This is a bot I made in my free time originally for reputation, but I don't sell
 - Buyers must confirm they got the valid product before a payout and if they don't a dispute starts.
 
 # Example of how a deal would go
-Seller: Opens ticket.
+Seller: Opens ticket.\n
 Bot: Asks for the user ID of the buyer.
 Seller: gives the user ID.
 Bot: Adds the User ID to the ticket.
