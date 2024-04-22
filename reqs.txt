@@ -1,1 +1,12 @@
 
+asyncio
+random
+string
+time
+discord
+json
+requests
+blockcypher
+pycoingecko
+urllib3
+datetime
