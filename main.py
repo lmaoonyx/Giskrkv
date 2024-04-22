@@ -434,20 +434,13 @@ async def new_api_key(interaction: discord.Interaction, key : str):
     else:
         await interaction.response.send_message(embed=fail("Only Admins Can Do This"))
 
-@bot.tree.command(name="test_confirm", description="TEST")
-async def test_confirm(interaction: discord.Interaction):
-    if interaction.user.id == your_discord_user_id:  # Replace your_discord_user_id with the actual ID
-        view = confirmProductbuttons()
-        embed = info("confirm button test")  # Assuming info() creates an embed message
-        await interaction.response.send_message(embed=embed, view=view)
-    else:
-        await interaction.response.send_message(embed=fail("Only Admins Can Do This"))
+
 
 @bot.tree.command(name="close", description="close ticket, admin only")
 async def close_ticket_test(interaction: discord.Interaction):
     if interaction.user.id == your_discord_user_id:  # Replace your_discord_user_id with the actual ID
         view = CloseTicket()
-        embed = fail("close ticket")  # Assuming info() creates an embed message
+        embed = fail("close ticket") 
         await interaction.response.send_message(embed=embed, view=view)
     else:
         await interaction.response.send_message(embed=fail("Only Admins Can Do This"))
