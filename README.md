@@ -44,4 +44,3 @@ This is a bot I made in my free time originally for reputation, but I don't sell
 - /send_ltc - sends LTC to a wallet address through a bots address | admin only
 
 
-# Will post files Later when im avaible
