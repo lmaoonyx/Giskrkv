@@ -1,7 +1,7 @@
 # Auto-MM-bot
 Auto Middleman bot for Discord which handles LTC transactions
 
-This is a bot I made in my free time originally for reputation, but I don't sell on Discord anymore so I'm just releasing it here for all you skids to say "WE HAVE VERY FIRST AUTO MM BOT ON THE MARKET" (I'm a skid).
+This is a bot I made in my free time originally for reputation, but I don't sell on Discord anymore so I'm just releasing it here for all you skids to say "WE HAVE VERY FIRST AUTO MM BOT ON THE MARKET" (I'm a skid, and this ain't the first auto mm bot ever).
 
 # Cool stuff
 - I use the Blockcypher API, API keys can be obtained here -> https://accounts.blockcypher.com/
