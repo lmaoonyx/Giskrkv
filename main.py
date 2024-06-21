@@ -1,10 +1,10 @@
-fee = 1.01 # 1%
-your_discord_user_id = ''
+fee = 0.15 # 1%
+your_discord_user_id = '1240015037523820665'
 bot_token = ""
 ticket_channel = ''
 dispute_channel = ''
 logsid = ''
-api_key = "blockcypher api"
+api_key = "8b2039956799495e9080c9573314cce9"
 
 deals = {}
 dis = {}
