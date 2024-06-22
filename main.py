@@ -1,6 +1,6 @@
 fee = 0.15 # 1%
 your_discord_user_id = '1240015037523820665'
-bot_token = ""
+bot_token = "MTI1Mzg2NDI1MzE3ODUxNTU3Nw.Go-lPM.d0nF97inrALxx7gr4kLHv0kZhn1wLOc3MJiwqE"
 ticket_channel = '1251659487778177196'
 dispute_channel = '1252687435113037876'
 logsid = '1242591820643565671'
